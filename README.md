@@ -2,6 +2,8 @@
 
 StudyPlease is a browser extension that turns restricted websites into short English (or any language u want) vocabulary checkpoints.
 
+<img width="1307" height="602" alt="image" src="https://github.com/user-attachments/assets/0367762f-c7e0-4a5c-b6b1-23ddc71d8cc2" />
+
 ## Features
 - Full-screen in-page quiz overlay on restricted sites.
 - 4 multiple-choice answers.
