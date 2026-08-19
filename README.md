@@ -1,6 +1,6 @@
 # StudyPlease
 
-StudyPlease is a Manifest V3 Chrome/Edge extension that turns restricted websites into short English vocabulary checkpoints.
+StudyPlease is a browser extension that turns restricted websites into short English (or any language u want) vocabulary checkpoints.
 
 ## Features
 - Full-screen in-page quiz overlay on restricted sites.
