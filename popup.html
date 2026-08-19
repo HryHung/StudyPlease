@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>StudyPlease</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <main class="app">
+    <header class="header">
+      <div>
+        <div class="brand">StudyPlease</div>
+        <div class="subtitle">Learn before you browse.</div>
+      </div>
+      <div class="badge" id="levelBadge">C1</div>
+    </header>
+
+    <section class="card">
+      <div class="section-title">Unlock time</div>
+      <div class="range-row">
+        <input id="minutesRange" type="range" min="1" max="60" step="1">
+        <div class="minute-value"><span id="minutesValue">10</span> min</div>
+      </div>
+    </section>
+
+    <section class="card">
+      <div class="section-title">Restricted websites</div>
+      <div class="add-row">
+        <input id="siteInput" type="text" placeholder="youtube.com">
+        <button id="addSite" type="button">Add</button>
+      </div>
+      <div id="siteList" class="list"></div>
+    </section>
+
+    <section class="card">
+      <div class="section-title">Vocabulary profile</div>
+      <div class="form-grid">
+        <input id="wordInput" type="text" placeholder="Word">
+        <input id="meaningInput" type="text" placeholder="Meaning">
+      </div>
+      <button id="addWord" class="full-btn" type="button">Add vocabulary</button>
+      <div class="stats" id="stats"></div>
+      <div id="wordList" class="word-list"></div>
+    </section>
+
+    <footer class="footer">v1.0.0 · Your browsing time is earned through English practice.</footer>
+  </main>
+  <script src="popup.js"></script>
+</body>
+</html>
