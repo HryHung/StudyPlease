@@ -16,11 +16,14 @@ StudyPlease is a browser extension that turns restricted websites into short Eng
 - Basic quiz statistics.
 
 ## Install in Chrome / Edge
-1. Open `chrome://extensions/` (or `edge://extensions/`).
-2. Enable **Developer mode**.
-3. Choose **Load unpacked**.
-4. Select the extracted `StudyPlease` folder.
-5. Open the StudyPlease extension popup and configure restricted sites / unlock time.
+1. Download Zip file <img width="774" height="452" alt="image" src="https://github.com/user-attachments/assets/04087c78-08f2-411e-85cd-8d3e143cff6a" />
+
+2. Open `chrome://extensions/` (or `edge://extensions/`).
+3. 
+4. Enable **Developer mode**.
+5. Choose **Load unpacked**.
+6. Select the extracted `StudyPlease` folder.
+7. Open the StudyPlease extension popup and configure restricted sites / unlock time.
 
 ## Important
 This MVP uses a document-start content script to put the full-screen StudyPlease overlay over restricted pages. The page itself may still technically begin loading underneath the overlay, but the user cannot interact with it while StudyPlease is locked.
